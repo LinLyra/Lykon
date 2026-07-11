@@ -872,3 +872,25 @@ body.intro-revealing .app-shell { animation: introHomeReveal 1.3s cubic-bezier(.
   .dna-delta-head { display: block; line-height: 1.5; }
   .dna-delta-head b { display: block; margin-top: 3px; }
 }
+
+/* Final guard for actionable text that appears inside large cards or dialogs. */
+.player-profile-btn,
+.data-source-note,
+.signal-tabs button,
+.pipeline-step span,
+.pipeline-status,
+.foot-sync-state,
+.training-focus-head .mini-action { font-size: 10px; }
+.dna-delta-head { font-size: 9px; }
+.dna-delta-head b,
+.dna-delta-grid span { font-size: 10px; }
+
+@media (max-width: 760px) {
+  .player-profile-btn,
+  .data-source-note,
+  .signal-tabs button,
+  .pipeline-step span,
+  .pipeline-status,
+  .foot-sync-state,
+  .training-focus-head .mini-action { font-size: 9px; }
+}
