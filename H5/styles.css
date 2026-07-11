@@ -894,3 +894,12 @@ body.intro-revealing .app-shell { animation: introHomeReveal 1.3s cubic-bezier(.
   .foot-sync-state,
   .training-focus-head .mini-action { font-size: 9px; }
 }
+
+/* Team Web frame: keep the dashboard from stretching edge-to-edge on wide screens. */
+.surface-team { width: min(1760px, calc(100% - 128px)); max-width: none; margin: 0 auto; padding: 48px 0 42px; }
+@media (max-width: 1120px) {
+  .surface-team { width: calc(100% - 64px); padding-top: 38px; }
+}
+@media (max-width: 760px) {
+  .surface-team { width: calc(100% - 28px); padding: 30px 0 82px; }
+}
