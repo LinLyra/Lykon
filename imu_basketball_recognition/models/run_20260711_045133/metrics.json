@@ -1,0 +1,1086 @@
+{
+  "validation": {
+    "rf": {
+      "accuracy": 0.46130952380952384,
+      "macro_f1": 0.386949110356222,
+      "per_class_f1": {
+        "catch": 0.28153153153153154,
+        "defense": 0.08653846153846154,
+        "dribble_left_right": 0.49056603773584906,
+        "dribble_right_once": 0.2634146341463415,
+        "null": 0.9348441926345609,
+        "pass_high": 0.3724696356275304,
+        "shot": 0.27927927927927926
+      },
+      "confusion_matrix": [
+        [
+          125,
+          0,
+          1,
+          24,
+          7,
+          61,
+          40
+        ],
+        [
+          189,
+          9,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          90,
+          0,
+          52,
+          0,
+          12,
+          1,
+          1
+        ],
+        [
+          62,
+          0,
+          0,
+          27,
+          1,
+          0,
+          30
+        ],
+        [
+          21,
+          0,
+          2,
+          0,
+          330,
+          0,
+          0
+        ],
+        [
+          88,
+          0,
+          1,
+          0,
+          3,
+          46,
+          0
+        ],
+        [
+          55,
+          0,
+          0,
+          34,
+          0,
+          0,
+          31
+        ]
+      ]
+    },
+    "svm": {
+      "accuracy": 0.45535714285714285,
+      "macro_f1": 0.40059854251418303,
+      "per_class_f1": {
+        "catch": 0.09854014598540146,
+        "defense": 0.19909502262443438,
+        "dribble_left_right": 0.4225352112676056,
+        "dribble_right_once": 0.37333333333333335,
+        "null": 0.9230769230769231,
+        "pass_high": 0.47619047619047616,
+        "shot": 0.31141868512110726
+      },
+      "confusion_matrix": [
+        [
+          27,
+          0,
+          3,
+          52,
+          0,
+          123,
+          53
+        ],
+        [
+          136,
+          22,
+          0,
+          0,
+          1,
+          40,
+          0
+        ],
+        [
+          63,
+          0,
+          45,
+          12,
+          9,
+          12,
+          15
+        ],
+        [
+          7,
+          0,
+          0,
+          56,
+          0,
+          4,
+          53
+        ],
+        [
+          14,
+          0,
+          6,
+          1,
+          312,
+          17,
+          3
+        ],
+        [
+          28,
+          0,
+          3,
+          1,
+          1,
+          105,
+          0
+        ],
+        [
+          15,
+          0,
+          0,
+          58,
+          0,
+          2,
+          45
+        ]
+      ]
+    },
+    "knn": {
+      "accuracy": 0.5275297619047619,
+      "macro_f1": 0.48596588231583066,
+      "per_class_f1": {
+        "catch": 0.3160919540229885,
+        "defense": 0.5951557093425606,
+        "dribble_left_right": 0.5531914893617021,
+        "dribble_right_once": 0.3170731707317073,
+        "null": 0.9021897810218978,
+        "pass_high": 0.47333333333333333,
+        "shot": 0.24472573839662448
+      },
+      "confusion_matrix": [
+        [
+          110,
+          0,
+          3,
+          32,
+          1,
+          72,
+          40
+        ],
+        [
+          100,
+          86,
+          0,
+          0,
+          1,
+          11,
+          1
+        ],
+        [
+          45,
+          0,
+          65,
+          11,
+          21,
+          3,
+          11
+        ],
+        [
+          50,
+          0,
+          0,
+          39,
+          0,
+          2,
+          29
+        ],
+        [
+          22,
+          2,
+          8,
+          2,
+          309,
+          3,
+          7
+        ],
+        [
+          60,
+          2,
+          3,
+          2,
+          0,
+          71,
+          0
+        ],
+        [
+          51,
+          0,
+          0,
+          40,
+          0,
+          0,
+          29
+        ]
+      ]
+    }
+  },
+  "threshold_scan": [
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8132440476190477,
+      "action_f1": 0.16666666666666666
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.6138392857142857,
+      "action_f1": 0.8192558454515574
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.36830357142857145,
+      "action_f1": 0.5831315638947783
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.18898809523809523,
+      "action_f1": 0.37077907157607504
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.0744047619047619,
+      "action_f1": 0.31252458904112035
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.04389880952380952,
+      "action_f1": 0.30567842412226864
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.036458333333333336,
+      "action_f1": 0.3035831317585771
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.03571428571428571,
+      "action_f1": 0.3030263719786645
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.034970238095238096,
+      "action_f1": 0.3024754464638485
+    },
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.033482142857142856,
+      "action_f1": 0.30184412998661386
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8132440476190477,
+      "action_f1": 0.16666666666666666
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.6302083333333334,
+      "action_f1": 0.8267952589364779
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.40922619047619047,
+      "action_f1": 0.5413787342043921
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.25818452380952384,
+      "action_f1": 0.35260541032434256
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.16592261904761904,
+      "action_f1": 0.311219160052005
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.14211309523809523,
+      "action_f1": 0.3061719088467345
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.13764880952380953,
+      "action_f1": 0.3050850342230267
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.13764880952380953,
+      "action_f1": 0.3050850342230267
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.13764880952380953,
+      "action_f1": 0.3050850342230267
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.13616071428571427,
+      "action_f1": 0.30441067107789893
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8132440476190477,
+      "action_f1": 0.16666666666666666
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.6622023809523809,
+      "action_f1": 0.8097478544846967
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.5029761904761905,
+      "action_f1": 0.48616578814581485
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.39657738095238093,
+      "action_f1": 0.315877328791536
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.3392857142857143,
+      "action_f1": 0.28757557854463256
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.3273809523809524,
+      "action_f1": 0.28506037577435756
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.32589285714285715,
+      "action_f1": 0.2845357324815392
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.32589285714285715,
+      "action_f1": 0.2845357324815392
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.32589285714285715,
+      "action_f1": 0.2845357324815392
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.3244047619047619,
+      "action_f1": 0.2837602433599206
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8132440476190477,
+      "action_f1": 0.16666666666666666
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.6852678571428571,
+      "action_f1": 0.6493314020480673
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.5736607142857143,
+      "action_f1": 0.42665549803114744
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.5171130952380952,
+      "action_f1": 0.3167074330115894
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.4895833333333333,
+      "action_f1": 0.30092050567943285
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.48735119047619047,
+      "action_f1": 0.3000701439132422
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.48735119047619047,
+      "action_f1": 0.3000701439132422
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.48735119047619047,
+      "action_f1": 0.3000701439132422
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.48735119047619047,
+      "action_f1": 0.3000701439132422
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.48735119047619047,
+      "action_f1": 0.3000701439132422
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8132440476190477,
+      "action_f1": 0.16666666666666666
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.7157738095238095,
+      "action_f1": 0.4229225023342671
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.6473214285714286,
+      "action_f1": 0.4893494266922764
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.6160714285714286,
+      "action_f1": 0.4301347749719299
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.6049107142857143,
+      "action_f1": 0.4136221692535417
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.6034226190476191,
+      "action_f1": 0.41262580432271906
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.6034226190476191,
+      "action_f1": 0.41262580432271906
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.6034226190476191,
+      "action_f1": 0.41262580432271906
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.6034226190476191,
+      "action_f1": 0.41262580432271906
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.6034226190476191,
+      "action_f1": 0.41262580432271906
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8154761904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.7462797619047619,
+      "action_f1": 0.38703465982028246
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.7090773809523809,
+      "action_f1": 0.3270803270803271
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.6971726190476191,
+      "action_f1": 0.303583282952215
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.6904761904761905,
+      "action_f1": 0.2839657839657839
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.6904761904761905,
+      "action_f1": 0.2839657839657839
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.6904761904761905,
+      "action_f1": 0.2839657839657839
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.6904761904761905,
+      "action_f1": 0.2839657839657839
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.6904761904761905,
+      "action_f1": 0.2839657839657839
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.6904761904761905,
+      "action_f1": 0.2839657839657839
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8154761904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.7723214285714286,
+      "action_f1": 0.28205128205128205
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.75,
+      "action_f1": 0.2619047619047619
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.7410714285714286,
+      "action_f1": 0.2463680387409201
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.7358630952380952,
+      "action_f1": 0.21428571428571427
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.7358630952380952,
+      "action_f1": 0.21428571428571427
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.7358630952380952,
+      "action_f1": 0.21428571428571427
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.7358630952380952,
+      "action_f1": 0.21428571428571427
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.7358630952380952,
+      "action_f1": 0.21428571428571427
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.7358630952380952,
+      "action_f1": 0.21428571428571427
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8154761904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.7819940476190477,
+      "action_f1": 0.12820512820512822
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.7700892857142857,
+      "action_f1": 0.06944444444444445
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.7648809523809523,
+      "action_f1": 0.05555555555555555
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.7619047619047619,
+      "action_f1": 0.053763440860215055
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.7619047619047619,
+      "action_f1": 0.053763440860215055
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.7619047619047619,
+      "action_f1": 0.053763440860215055
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.7619047619047619,
+      "action_f1": 0.053763440860215055
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.7619047619047619,
+      "action_f1": 0.053763440860215055
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.7619047619047619,
+      "action_f1": 0.053763440860215055
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8154761904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.7842261904761905,
+      "action_f1": 0.09523809523809523
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.7760416666666666,
+      "action_f1": 0.047619047619047616
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.7730654761904762,
+      "action_f1": 0.0392156862745098
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.7715773809523809,
+      "action_f1": 0.037037037037037035
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.7715773809523809,
+      "action_f1": 0.037037037037037035
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.7715773809523809,
+      "action_f1": 0.037037037037037035
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.7715773809523809,
+      "action_f1": 0.037037037037037035
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.7715773809523809,
+      "action_f1": 0.037037037037037035
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.7715773809523809,
+      "action_f1": 0.037037037037037035
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8154761904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.7879464285714286,
+      "action_f1": 0.16666666666666666
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.78125,
+      "action_f1": 0.041666666666666664
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.7790178571428571,
+      "action_f1": 0.03333333333333333
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.7782738095238095,
+      "action_f1": 0.03333333333333333
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.7782738095238095,
+      "action_f1": 0.03333333333333333
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.7782738095238095,
+      "action_f1": 0.03333333333333333
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.7782738095238095,
+      "action_f1": 0.03333333333333333
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.7782738095238095,
+      "action_f1": 0.03333333333333333
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.7782738095238095,
+      "action_f1": 0.03333333333333333
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8154761904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.7909226190476191,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.7872023809523809,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.7864583333333334,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.7857142857142857,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.7857142857142857,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.7857142857142857,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.7857142857142857,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.7857142857142857,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.7857142857142857,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8162202380952381,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.796875,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.7946428571428571,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.7938988095238095,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.7931547619047619,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.7931547619047619,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.7931547619047619,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.7931547619047619,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.7931547619047619,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.7931547619047619,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.8653273809523809,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.8489583333333334,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.8474702380952381,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.8474702380952381,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.8467261904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.8467261904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.8467261904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.8467261904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.8467261904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.8467261904761905,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 0.5,
+      "rejection_rate": 0.9888392857142857,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 0.75,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 1.0,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 1.25,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 1.5,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 1.75,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 2.0,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 2.25,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 2.5,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 2.75,
+      "rejection_rate": 0.9791666666666666,
+      "action_f1": 0.0
+    }
+  ],
+  "selected_working_point": {
+    "prob_thresh": 0.3,
+    "mahal_multiplier": 1.25,
+    "rejection_rate": 0.18898809523809523,
+    "action_f1": 0.37077907157607504
+  }
+}

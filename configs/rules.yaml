@@ -1,0 +1,44 @@
+sampling:
+  window_size: 50
+  step_size: 25
+
+features:
+  acc_mag: true
+  rolling_std: true
+  peak_count: true
+  dominant_frequency: true
+
+rules:
+  idle:
+    acc_mag_std_max: 0.15
+    acc_mag_range_max: 0.40
+
+  jump:
+    acc_mag_max_min: 2.2
+    acc_mag_range_min: 1.2
+    peak_count_min: 1
+
+  dribble:
+    peak_count_min: 3
+    acc_mag_std_min: 0.25
+    dominant_freq_min: 1.0
+    dominant_freq_max: 4.5
+
+  sprint:
+    acc_mag_std_min: 0.45
+    peak_count_min: 4
+
+  collision:
+    acc_mag_max_min: 3.5
+    duration_max_ms: 300
+
+  pass:
+    acc_mag_max_min: 1.8
+    peak_count_min: 1
+    peak_count_max: 3
+    duration_max_ms: 1000
+
+  shot:
+    acc_mag_max_min: 1.5
+    acc_mag_range_min: 0.8
+    peak_count_min: 1

@@ -1,0 +1,21 @@
+{
+  "n_windows_total": 3469,
+  "n_windows_action": 1193,
+  "n_features_selected": 50,
+  "silhouette_score": -0.09553337919356363,
+  "classes": [
+    "catch",
+    "defense",
+    "dribble_left_right",
+    "dribble_right_once",
+    "pass_high",
+    "random",
+    "shot"
+  ],
+  "owen_rf_acc": 0.8637770897832817,
+  "ryan_rf_acc": 0.8657243816254417,
+  "cross_or_rf_acc": 0.8401682439537329,
+  "cross_ro_rf_acc": 0.7440068493150684,
+  "merged_rf_acc": 0.6911090742438131,
+  "merged_rf_f1": 0.20778872624546324
+}
