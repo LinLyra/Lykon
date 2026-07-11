@@ -381,21 +381,6 @@ python scripts/03_train_baseline.py
 ```bash
 python scripts/04_run_rules.py
 ```
-
----
-
-# Data Principles
-
-核心原则：
-
-1. Raw 数据永不修改
-2. Label 与 Raw 分离
-3. 所有数据拥有 session_id
-4. 微秒级时间戳统一对齐
-5. 视频作为 Teacher，不是产品依赖
-6. 所有模型结果可追溯
-7. 大体积视频与模型不直接上传仓库
-
 ---
 
 # Branch Guide
