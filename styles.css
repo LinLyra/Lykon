@@ -903,3 +903,22 @@ body.intro-revealing .app-shell { animation: introHomeReveal 1.3s cubic-bezier(.
 @media (max-width: 760px) {
   .surface-team { width: calc(100% - 28px); padding: 30px 0 82px; }
 }
+
+/* Bottom navigation: give the four destinations a wider, more readable touch target. */
+.mobile-nav {
+  width: min(500px, calc(100vw - 40px));
+  padding: 8px;
+  border-radius: 16px;
+}
+.mobile-nav a {
+  gap: 10px;
+  padding: 11px 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.mobile-nav a span { font-size: 17px; }
+@media (max-width: 760px) {
+  .mobile-nav { width: calc(100vw - 24px); padding: 8px; }
+  .mobile-nav a { gap: 6px; padding: 10px 5px; font-size: 11px; }
+  .mobile-nav a span { font-size: 17px; }
+}
