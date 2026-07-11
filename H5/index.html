@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#090a0b" />
     <title>LYKON — Digital Athlete OS</title>
-    <link rel="stylesheet" href="./styles.css?v=20260711-26" />
+    <link rel="stylesheet" href="./styles.css?v=20260711-28" />
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
   </head>
   <body class="intro-active">
@@ -54,9 +54,12 @@
           <span class="brand-lockup"><strong>LYKON</strong><em>HONOR THE INSTINCT</em></span>
         </a>
 
-        <div class="mode-switch" role="tablist" aria-label="Product surface">
-          <button class="mode-btn is-active" data-mode="app" role="tab" aria-selected="true">PLAYER APP</button>
-          <button class="mode-btn" data-mode="team" role="tab" aria-selected="false">TEAM WEB</button>
+        <div class="topbar-navigation">
+          <div class="mode-switch" role="tablist" aria-label="Product surface">
+            <button class="mode-btn is-active" data-mode="app" role="tab" aria-selected="true">PLAYER APP</button>
+            <button class="mode-btn" data-mode="team" role="tab" aria-selected="false">TEAM WEB</button>
+          </div>
+          <nav class="mobile-nav" aria-label="Primary navigation"><a class="is-active" href="#overview" data-nav="overview"><span>◈</span>球员</a><a href="#games" data-nav="games"><span>◒</span>比赛</a><a href="#training" data-action="training"><span>↗</span>训练</a><a href="#community" data-action="community"><span>◎</span>球友</a></nav>
         </div>
 
         <div class="topbar-actions">
@@ -288,7 +291,6 @@
         </section>
       </main>
 
-      <nav class="mobile-nav" aria-label="Mobile navigation"><a class="is-active" href="#overview" data-nav="overview"><span>◈</span>球员</a><a href="#games" data-nav="games"><span>◒</span>比赛</a><a href="#training" data-action="training"><span>↗</span>训练</a><a href="#community" data-action="community"><span>◎</span>球友</a></nav>
     </div>
 
     <div class="notification-drawer" id="notification-drawer" aria-hidden="true">

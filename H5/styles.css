@@ -922,3 +922,50 @@ body.intro-revealing .app-shell { animation: introHomeReveal 1.3s cubic-bezier(.
   .mobile-nav a { gap: 6px; padding: 10px 5px; font-size: 11px; }
   .mobile-nav a span { font-size: 17px; }
 }
+
+/* Two-tier product navigation: place the section destinations directly below the surface switcher. */
+.app-shell { grid-template-rows: 150px minmax(0, 1fr); }
+.topbar {
+  height: 150px;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto minmax(220px, 1fr);
+  align-items: center;
+}
+.topbar-navigation { display: grid; justify-items: center; gap: 10px; }
+.topbar-navigation .mobile-nav {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  transform: none;
+  width: min(500px, calc(100vw - 40px));
+}
+.reference-dashboard { height: calc(100vh - 150px); }
+
+@media (min-width: 761px) and (max-width: 1120px) {
+  .topbar {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    padding-inline: 28px;
+  }
+  .topbar-navigation .mobile-nav { width: min(450px, calc(100vw - 56px)); }
+}
+
+@media (max-width: 760px) {
+  .app-shell { display: block; padding-bottom: 0; }
+  .topbar {
+    height: auto;
+    min-height: 150px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 62px auto;
+    gap: 10px 12px;
+    padding: 10px 16px 13px;
+  }
+  .topbar .brand { grid-column: 1; grid-row: 1; }
+  .topbar .topbar-actions { grid-column: 2; grid-row: 1; }
+  .topbar-navigation { grid-column: 1 / -1; grid-row: 2; gap: 8px; }
+  .topbar-navigation .mode-switch { order: 0; }
+  .topbar-navigation .mobile-nav { width: calc(100vw - 32px); }
+  .reference-dashboard { height: auto; min-height: calc(100vh - 150px); }
+  .surface-team { padding-bottom: 42px; }
+}
