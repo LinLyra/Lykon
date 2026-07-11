@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>LYKON wolf knight mark</title>
+  <desc>Minimal angular wolf head inside a knight shield, designed as a one-color wearable emblem.</desc>
+  <g fill="#E9B867">
+    <path d="M61 162L165 119L124 166L48 192L61 162Z"/>
+    <path d="M53 213L143 188L112 221L42 236L53 213Z" opacity=".72"/>
+    <path fill-rule="evenodd" d="M256 38L438 104V249C438 352 368 432 256 476C144 432 74 352 74 249V104L256 38ZM256 82L116 132V247C116 324 164 386 256 426C348 386 396 324 396 247V132L256 82Z"/>
+    <path d="M145 276L116 203L181 222L168 115L237 165L293 91L300 164L365 116L350 190L413 224L365 248L383 282L326 276L277 337L241 295L192 349L183 286L145 276Z"/>
+    <path d="M285 198L347 190L400 224L353 240L317 226L285 198Z"/>
+    <path d="M196 145L231 174L190 190L196 145Z" fill="#0A0C0D"/>
+    <path d="M302 145L339 133L322 184L302 145Z" fill="#0A0C0D"/>
+    <path d="M303 207L335 211L316 223L301 217L303 207Z" fill="#0A0C0D"/>
+    <path d="M278 242L316 250L286 268L265 258L278 242Z" fill="#0A0C0D"/>
+    <path d="M241 283L257 263L271 282L258 304L241 283Z" fill="#0A0C0D"/>
+  </g>
+</svg>
