@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# Data files
+*.csv
+*.parquet
+*.npz
+*.npy
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Image / plot outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Dataset directories
+lykon_dataset/

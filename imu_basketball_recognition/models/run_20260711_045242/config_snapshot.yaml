@@ -1,0 +1,55 @@
+window_length_s: 1.2
+window_step_s: 0.3
+sampling_rate_hz: 50.0
+lp_cutoff_hz: 20.0
+lp_order: 4
+nodes:
+- node1
+- node2
+- node3
+- node4
+classes:
+- catch
+- dribble_left_right
+- dribble_right_once
+- 'null'
+- pass_high
+- shot
+label_encoder:
+  catch: 0
+  dribble_left_right: 1
+  dribble_right_once: 2
+  'null': 3
+  pass_high: 4
+  shot: 5
+feature_selection:
+  n_features_total: 1132
+  n_features_selected: 50
+  attitude_keywords_removed:
+  - a_vert
+  - a_horiz
+  - yaw
+  - pitch_mean
+  - roll_mean
+  - pitch_dom
+  - roll_dom
+smoothing:
+  n_votes: 5
+event_aggregation:
+  bridge_gap_s: 0.6
+  min_dur_transient_windows: 2
+  min_dur_continuous_windows: 4
+frequency_bands:
+  low:
+  - 0.0
+  - 3.0
+  mid:
+  - 3.0
+  - 8.0
+  high:
+  - 8.0
+  - 25.0
+random_state: 42
+pipeline_sklearn_version: 1.6.1
+numpy_version: 2.0.2
+pandas_version: 2.3.3
