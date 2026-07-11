@@ -382,6 +382,149 @@ body.intro-revealing .app-shell { animation: introHomeReveal 1.3s cubic-bezier(.
   .brand-lockup em { font-size: 7px; }
 }
 
+/* Whole-site readability audit: primary content must scale with the space it occupies. */
+.mode-btn,
+.outline-btn,
+.gold-btn,
+.filter-btn,
+.section-toggle,
+.wide-btn,
+.player-action,
+.replay-demo-btn,
+.intro-skip { font-size: 11px; }
+.panel-heading h3,
+.community-banner h3,
+.device-hero h3,
+.subpage-section-head h3,
+.roster-card h3 { font-size: 18px; }
+.heading-copy,
+.focus-panel p,
+.subpage-header p,
+.subpage-note,
+.community-banner p,
+.community-player small,
+.device-hero p,
+.signal-side p,
+.roster-insight p,
+.tactical-hero p,
+.coach-note p { font-size: 12px; }
+.score-block span,
+.score-block small,
+.game-metrics span,
+.game-metrics small,
+.progress-label,
+.form-score span,
+.form-score b,
+.trend-note,
+.match-card span,
+.match-card strong small,
+.team-score-main small,
+.versus span,
+.roster-card p,
+.roster-stats span,
+.signal-mini-row,
+.roster-table-row,
+.device-list div { font-size: 10px; }
+.card-topline,
+.player-card-foot,
+.team-score-footer { font-size: 10px; }
+.gold-label,
+.mini-action,
+.chart-caption,
+.roster-state { font-size: 10px; }
+.game-metrics b { font-size: 22px; }
+.text-btn { font-size: 12px; }
+.radar-label { font-size: 9px; }
+.radar-label b { font-size: 12px; }
+.ability-list span,
+.ability-list b { font-size: 12px; }
+.ability-list em { font-size: 10px; }
+.status-pill,
+.device-online,
+.tactical-score span { font-size: 10px; }
+.spark-dates,
+.signal-axis,
+.subpage-days,
+.court-label,
+.subpage-court > span { font-size: 9px; }
+.match-card b,
+.community-player b { font-size: 12px; }
+.community-player span { font-size: 10px; }
+.roster-table-head { font-size: 10px; }
+.roster-insight { font-size: 12px; }
+.replay-stage .stage-top,
+.replay-controls .time-code,
+.speed-btn,
+.insight-tabs button { font-size: 10px; }
+.event-item b { font-size: 12px; }
+.event-item small { font-size: 10px; }
+.ai-summary b,
+.dna-delta-head,
+.dna-delta-head b,
+.dna-delta-grid span,
+.report-row { font-size: 10px; }
+.ai-summary p,
+.report-copy { font-size: 11px; }
+.training-focus-footer { font-size: 9px; }
+.training-focus-footer b { font-size: 10px; }
+.footer-stamp { font-size: 9px; }
+.mobile-nav a { font-size: 10px; }
+
+@media (max-width: 760px) {
+  .mode-btn,
+  .outline-btn,
+  .gold-btn,
+  .filter-btn,
+  .section-toggle,
+  .wide-btn,
+  .player-action,
+  .replay-demo-btn { font-size: 10px; }
+  .panel-heading h3,
+  .community-banner h3,
+  .device-hero h3,
+  .subpage-section-head h3,
+  .roster-card h3 { font-size: 17px; }
+  .heading-copy,
+  .focus-panel p,
+  .subpage-header p,
+  .subpage-note,
+  .community-banner p,
+  .community-player small,
+  .device-hero p,
+  .signal-side p,
+  .roster-insight p,
+  .tactical-hero p,
+  .coach-note p { font-size: 11px; }
+  .score-block span,
+  .score-block small,
+  .game-metrics span,
+  .game-metrics small,
+  .progress-label,
+  .form-score span,
+  .form-score b,
+  .trend-note,
+  .match-card span,
+  .match-card strong small,
+  .team-score-main small,
+  .versus span,
+  .roster-card p,
+  .roster-stats span,
+  .signal-mini-row,
+  .roster-table-row,
+  .device-list div { font-size: 9px; }
+  .radar-label,
+  .spark-dates,
+  .signal-axis,
+  .subpage-days,
+  .court-label,
+  .subpage-court > span { font-size: 8px; }
+  .event-item b { font-size: 11px; }
+  .event-item small,
+  .ai-summary p,
+  .report-copy { font-size: 10px; }
+  .footer-stamp { font-size: 8px; }
+}
+
 /* LYKON identity layer: compact enough for a sleeve, expressive enough for the product surface. */
 .brand-emblem { display: grid; place-items: center; width: 44px; height: 44px; flex: 0 0 44px; border: 1px solid rgba(232,186,103,.38); border-radius: 13px; background: radial-gradient(circle at 50% 44%, rgba(228,176,83,.18), rgba(228,176,83,.035) 64%, transparent 70%), rgba(9,10,11,.75); box-shadow: inset 0 0 18px rgba(232,186,103,.08), 0 0 24px rgba(226,170,77,.12); transition: transform .45s var(--ease), border-color .45s ease, box-shadow .45s ease; }
 .brand-logo { width: 40px; height: 40px; padding: 0; object-fit: contain; color: var(--gold-bright); filter: brightness(1.16) saturate(1.08) drop-shadow(0 0 10px rgba(232,177,79,.42)); transition: transform .45s var(--ease), filter .45s var(--ease); }
