@@ -1,1 +1,0 @@
-# IMU Basketball Action Recognition
