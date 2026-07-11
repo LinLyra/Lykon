@@ -190,7 +190,7 @@ def assign_fold(meta_row):
     rec = meta_row['recording']
     rep_id = meta_row['rep_id'] if 'rep_id' in meta_row and pd.notna(meta_row['rep_id']) else 0
     # Use rep_id parity for discrete recordings; subject+recording hash for continuous
-    is_discrete = any(rec.startswith(prefix) for prefix in ['26071001', '26071004', '26071011', '26071014'])
+    is_discrete = any(rec.startswith(prefix) for prefix in ['26071001', '26071004', '26071011', '26071014', '26071101', '26071104'])
     if is_discrete:
         return int(rep_id) % 2
     else:

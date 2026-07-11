@@ -24,7 +24,7 @@ G_STD = 9.80665                 # Standard gravity [m/s^2]
 # Data Paths
 # =============================================================================
 DATA_ROOT = '/Users/owen/Desktop/lykon-motion-lab-v2/lykon_dataset'
-SUBJECTS = ['owen', 'ryan']
+SUBJECTS = ['owen', 'ryan', 'white']
 
 # Recording name → (rec_id, action_type, events_per_cycle)
 # action_type: 'discrete' = event sequence (R1, R4), 'continuous' = whole-segment (R2, R3)
@@ -41,6 +41,12 @@ RECORDING_MAP = {
         '26071013防守':            ('R3', 'continuous', ['defense'], None),
         '26071014高位传球':        ('R4', 'discrete', ['catch', 'pass_high'], 2),
         '26071015随机做':          ('R5', 'continuous', ['random'], None),  # extra / open-set test
+    },
+    'white': {
+        '26071101接球-拍球-投球': ('R1', 'discrete', ['catch', 'dribble_right_once', 'shot'], 3),
+        '26071102左右运球':        ('R2', 'continuous', ['dribble_left_right'], None),
+        '26071103防守':            ('R3', 'continuous', ['defense'], None),
+        '26071104高位传球':        ('R4', 'discrete', ['catch', 'pass_high'], 2),
     },
 }
 

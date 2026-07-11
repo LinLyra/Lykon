@@ -21,11 +21,18 @@ from config import NODES, FS, G_STD, RANDOM_STATE, RECORDING_MAP
 all_data_v2 = {}
 quality_scores = {}
 
-for subject in ['owen', 'ryan']:
+for subject in ['owen', 'ryan', 'white']:
     all_data_v2[subject] = {}
     for rec_name in RECORDING_MAP[subject].keys():
         print(f"\n[Madgwick] {subject}/{rec_name}")
         df = load_recording(subject, rec_name, validate=False)
+        
+        # 对 ryan 高位传球的 node3 数据作废，作为空集训练
+        if subject == 'ryan' and rec_name == '26071014高位传球':
+            print(f"  [INFO] Zeroing out node3 data for {subject}/{rec_name} (invalidated, empty-set training)")
+            node3_cols = [c for c in df.columns if '_node3' in c and c not in ('subject', 'recording')]
+            df[node3_cols] = 0.0
+        
         t = df['t'].values
         n = len(df)
 
