@@ -1,0 +1,1 @@
+session_id,video_id,frame_id,timestamp_us,player_id,left_elbow_angle,right_elbow_angle,left_shoulder_angle,right_shoulder_angle,left_hip_angle,right_hip_angle,left_knee_angle,right_knee_angle,trunk_angle,left_arm_raise_angle,right_arm_raise_angle,source

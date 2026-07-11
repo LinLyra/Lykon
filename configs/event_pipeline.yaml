@@ -1,0 +1,37 @@
+sampling_rate_hz: 50
+
+paths:
+  input_windows: data/processed/our_data/shot_cycle_windows.npy
+  input_index: data/processed/our_data/shot_cycle_windows_index.csv
+  input_channels: data/processed/our_data/shot_cycle_channels.txt
+  output_dir: data/processed/our_data
+  report_dir: outputs/reports/our_data
+
+release_detector:
+  # 复合动作窗口中，release通常位于中段。先限制搜索区域，避免把运球冲击当成出手。
+  search_start_ratio: 0.35
+  search_end_ratio: 0.70
+
+  # 右小臂为主；右大臂和左小臂做协同约束
+  weights:
+    right_forearm_gyro: 0.45
+    right_forearm_acc: 0.20
+    right_upper_arm_gyro: 0.15
+    left_forearm_gyro: 0.10
+    asymmetry: 0.10
+
+  smooth_window_samples: 5
+  confidence_margin_samples: 6
+
+phase_segmentation:
+  # 相对于 release 的默认时间边界。后续可用视频校准。
+  gather_start_seconds_before_release: 0.65
+  release_half_width_seconds: 0.08
+  follow_through_end_seconds_after_release: 0.85
+
+  # 运球阶段结束点会在 gather_start 附近，根据右小臂周期能量做微调
+  dribble_search_seconds_before_gather: 0.90
+
+template:
+  normalize_per_channel: true
+  resample_timesteps: 171

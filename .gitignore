@@ -1,0 +1,47 @@
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+venv/
+
+# Trained models & binary artifacts
+models/*.pkl
+models/*.joblib
+*.joblib
+*.pkl
+*.blend1
+
+# ---------- KEEP OUT: real / derived sensor data ----------
+# Raw captures (IMU / UWB / video / hangtime / our sessions)
+data/raw/**/*.csv
+data/raw/**/*.mp4
+data/raw/**/*.mov
+data/raw/**/*.avi
+data/raw/**/*.json
+data/raw/hangtime/**
+!data/raw/hangtime/.gitkeep
+!data/raw/**/.gitkeep
+
+# Processed / interim / labels with real content
+data/interim/**
+!data/interim/**/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+!data/processed/**/.gitkeep
+data/labels/**
+!data/labels/.gitkeep
+
+# Reports, figures, blender outputs from local runs
+outputs/**
+!outputs/**/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/blender/.gitkeep
+
+# Notebooks may contain embedded data; keep folder only unless you opt in
+notebooks/**
+!notebooks/.gitkeep
+!notebooks/**/*.md

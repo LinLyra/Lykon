@@ -1,0 +1,20 @@
+raw_path: data/raw/our_data/imu_data_20260710_164218.csv
+output_dir: data/processed/our_data
+report_dir: outputs/reports/our_data
+
+sampling_rate_hz: 50
+target_cycles: 50
+
+node_map:
+  1: right_upper_arm
+  2: right_forearm
+  3: left_forearm
+
+segmentation:
+  detector_node: 2
+  smooth_window_samples: 9
+  min_cycle_distance_seconds: 2.0
+  pre_seconds: 1.6
+  post_seconds: 1.8
+  prominence_quantile_start: 0.90
+  prominence_quantile_floor: 0.45

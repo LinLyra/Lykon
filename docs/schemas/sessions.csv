@@ -1,0 +1,1 @@
+session_id,session_name,date,start_time_us,end_time_us,court_id,scenario,sampling_rate_imu,target_sampling_rate_uwb,video_available,pose_available,notes

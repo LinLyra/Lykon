@@ -1,0 +1,1 @@
+session_id,player_id,uwb_tag_id,seq,uwb_timestamp_us,synced_timestamp_us,uwb_x,uwb_y,uwb_z,uwb_quality,uwb_anchor_count,rssi,sync_rtt_us
