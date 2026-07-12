@@ -391,7 +391,7 @@ python scripts/04_run_rules.py
 main
 demo
 framework-public
-imu
+imu  
 train
 gh-pages
 ```
