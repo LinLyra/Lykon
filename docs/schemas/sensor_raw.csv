@@ -1,0 +1,1 @@
+session_id,player_id,sensor_id,side,seq,t_node_us,host_received_us,synced_timestamp_us,sync_rtt_us,ax,ay,az,gx,gy,gz,mx,my,mz,qw,qx,qy,qz,roll,pitch,yaw,linear_acc_x,linear_acc_y,linear_acc_z,gravity_x,gravity_y,gravity_z,calibration_status,battery,rssi,sampling_rate,firmware_version
