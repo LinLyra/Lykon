@@ -1,0 +1,204 @@
+{
+  "validation": {
+    "rf": {
+      "accuracy": 0.12641204948897256,
+      "macro_f1": 0.14360905140284613,
+      "per_class_f1": {
+        "catch": 0.14864864864864866,
+        "dribble_right_once": 0.3018867924528302,
+        "pass_high": 0.34980988593155893,
+        "shot": 0.20491803278688525
+      },
+      "confusion_matrix": [
+        [
+          132,
+          24,
+          69,
+          33
+        ],
+        [
+          59,
+          32,
+          0,
+          29
+        ],
+        [
+          92,
+          0,
+          46,
+          0
+        ],
+        [
+          63,
+          32,
+          0,
+          25
+        ]
+      ]
+    },
+    "svm": {
+      "accuracy": 0.1296395911780527,
+      "macro_f1": 0.13561457260919316,
+      "per_class_f1": {
+        "catch": 0.07155322862129145,
+        "dribble_right_once": 0.26903553299492383,
+        "pass_high": 0.31268436578171094,
+        "shot": 0.296028880866426
+      },
+      "confusion_matrix": [
+        [
+          41,
+          50,
+          120,
+          47
+        ],
+        [
+          12,
+          53,
+          4,
+          51
+        ],
+        [
+          31,
+          1,
+          106,
+          0
+        ],
+        [
+          15,
+          62,
+          2,
+          41
+        ]
+      ]
+    },
+    "knn": {
+      "accuracy": 0.13448090371167296,
+      "macro_f1": 0.1212177133312229,
+      "per_class_f1": {
+        "catch": 0.16716417910447762,
+        "dribble_right_once": 0.21587301587301588,
+        "pass_high": 0.31388329979879276,
+        "shot": 0.15160349854227406
+      },
+      "confusion_matrix": [
+        [
+          112,
+          37,
+          71,
+          38
+        ],
+        [
+          49,
+          34,
+          3,
+          34
+        ],
+        [
+          58,
+          2,
+          78,
+          0
+        ],
+        [
+          49,
+          45,
+          0,
+          26
+        ]
+      ]
+    }
+  },
+  "threshold_scan": [
+    {
+      "prob_thresh": 0.3,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.0,
+      "action_f1": 0.2772307376741854
+    },
+    {
+      "prob_thresh": 0.35,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.03550295857988166,
+      "action_f1": 0.2771043768388797
+    },
+    {
+      "prob_thresh": 0.39999999999999997,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.157073695535234,
+      "action_f1": 0.2753525927030623
+    },
+    {
+      "prob_thresh": 0.44999999999999996,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.2818719741796665,
+      "action_f1": 0.2643527619887931
+    },
+    {
+      "prob_thresh": 0.49999999999999994,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.43571812802582033,
+      "action_f1": 0.2914404938530649
+    },
+    {
+      "prob_thresh": 0.5499999999999999,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.6132329209252286,
+      "action_f1": 0.3390711123158941
+    },
+    {
+      "prob_thresh": 0.5999999999999999,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.7616998386229156,
+      "action_f1": 0.36223153483499215
+    },
+    {
+      "prob_thresh": 0.6499999999999999,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.9171597633136095,
+      "action_f1": 0.088497150997151
+    },
+    {
+      "prob_thresh": 0.7,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.9790209790209791,
+      "action_f1": 0.05357142857142857
+    },
+    {
+      "prob_thresh": 0.7499999999999999,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.9924690693921463,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.7999999999999998,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.9962345346960731,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8499999999999999,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 0.9989241527703067,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.8999999999999999,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 1.0,
+      "action_f1": 0.0
+    },
+    {
+      "prob_thresh": 0.9499999999999998,
+      "mahal_multiplier": 10000.0,
+      "rejection_rate": 1.0,
+      "action_f1": 0.0
+    }
+  ],
+  "selected_working_point": {
+    "prob_thresh": 0.3,
+    "mahal_multiplier": 10000.0,
+    "rejection_rate": 0.0,
+    "action_f1": 0.2772307376741854
+  }
+}

@@ -1,0 +1,1391 @@
+{
+  "run_id": "20260711_212943",
+  "train_windows": 2326,
+  "val_windows": 1484,
+  "train_recordings": [
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 0
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 2
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 4
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 6
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 8
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 10
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 12
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 14
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 16
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 18
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 20
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 22
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 24
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 26
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 28
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 30
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 32
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 34
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 36
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 38
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 40
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 42
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 44
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 46
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 48
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 50
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 52
+    },
+    {
+      "subject": "owen",
+      "recording": "26071002左右运球",
+      "rep_id": 0
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 0
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 2
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 4
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 6
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 8
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 10
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 12
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 14
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 16
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 18
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 20
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 22
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 24
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 26
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 28
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 30
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 32
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 34
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 36
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 38
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 40
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 42
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 44
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 0
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 2
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 4
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 6
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 8
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 10
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 12
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 14
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 16
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 18
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 20
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 22
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 24
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 26
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 28
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071012左右运球",
+      "rep_id": 0
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071013防守",
+      "rep_id": 0
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 0
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 2
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 4
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 6
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 8
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 10
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 12
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 14
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 16
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 18
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 20
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 22
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 24
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 26
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 28
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 30
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 32
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 34
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 36
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 38
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 40
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 42
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 44
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 46
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 0
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 2
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 4
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 6
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 8
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 10
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 12
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 14
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 16
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 18
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 20
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 22
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 24
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 26
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 28
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 30
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 32
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 34
+    },
+    {
+      "subject": "white",
+      "recording": "26071102左右运球",
+      "rep_id": 0
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 0
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 2
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 4
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 6
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 8
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 10
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 12
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 14
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 16
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 18
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 20
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 22
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 24
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 26
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 28
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 30
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 32
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 34
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 36
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 38
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 40
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 42
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 44
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 46
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 48
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 50
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 52
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 54
+    }
+  ],
+  "val_recordings": [
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 1
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 3
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 5
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 7
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 9
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 11
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 13
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 15
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 17
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 19
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 21
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 23
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 25
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 27
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 29
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 31
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 33
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 35
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 37
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 39
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 41
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 43
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 45
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 47
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 49
+    },
+    {
+      "subject": "owen",
+      "recording": "26071001接球-拍球-跳投",
+      "rep_id": 51
+    },
+    {
+      "subject": "owen",
+      "recording": "26071003防守",
+      "rep_id": 0
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 1
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 3
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 5
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 7
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 9
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 11
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 13
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 15
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 17
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 19
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 21
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 23
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 25
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 27
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 29
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 31
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 33
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 35
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 37
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 39
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 41
+    },
+    {
+      "subject": "owen",
+      "recording": "26071004高位传球",
+      "rep_id": 43
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 1
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 3
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 5
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 7
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 9
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 11
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 13
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 15
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 17
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 19
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 21
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 23
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 25
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071011接球-拍球-投球",
+      "rep_id": 27
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 1
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 3
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 5
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 7
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 9
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 11
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 13
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 15
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 17
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 19
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 21
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 23
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 25
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 27
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 29
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 31
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 33
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 35
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 37
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 39
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 41
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 43
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 45
+    },
+    {
+      "subject": "ryan",
+      "recording": "26071014高位传球",
+      "rep_id": 47
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 1
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 3
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 5
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 7
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 9
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 11
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 13
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 15
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 17
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 19
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 21
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 23
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 25
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 27
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 29
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 31
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 33
+    },
+    {
+      "subject": "white",
+      "recording": "26071101接球-拍球-投球",
+      "rep_id": 35
+    },
+    {
+      "subject": "white",
+      "recording": "26071103防守",
+      "rep_id": 0
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 1
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 3
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 5
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 7
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 9
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 11
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 13
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 15
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 17
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 19
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 21
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 23
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 25
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 27
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 29
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 31
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 33
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 35
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 37
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 39
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 41
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 43
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 45
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 47
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 49
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 51
+    },
+    {
+      "subject": "white",
+      "recording": "26071104高位传球",
+      "rep_id": 53
+    }
+  ],
+  "class_counts_train": {
+    "catch": 405,
+    "defense": 199,
+    "dribble_left_right": 455,
+    "dribble_right_once": 180,
+    "null": 682,
+    "pass_high": 225,
+    "shot": 180
+  },
+  "class_counts_val": {
+    "catch": 393,
+    "defense": 314,
+    "dribble_left_right": 0,
+    "dribble_right_once": 174,
+    "null": 210,
+    "pass_high": 219,
+    "shot": 174
+  },
+  "random_state": 42,
+  "sklearn_version": "1.6.1",
+  "numpy_version": "2.0.2",
+  "pandas_version": "2.3.3"
+}

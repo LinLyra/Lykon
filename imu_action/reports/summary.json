@@ -1,0 +1,23 @@
+{
+  "n_samples": 101,
+  "n_features": 40,
+  "label_distribution": {
+    "dribble": 51,
+    "shot": 50
+  },
+  "results": {
+    "RandomForest": {
+      "accuracy": 0.900990099009901
+    },
+    "SVM": {
+      "accuracy": 0.9603960396039604
+    },
+    "kNN": {
+      "accuracy": 0.9108910891089109
+    }
+  },
+  "best_model": "SVM",
+  "best_accuracy": 0.9603960396039604,
+  "target_accuracy": 0.95,
+  "pass": true
+}
