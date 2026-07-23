@@ -9,3 +9,8 @@ xgboost>=2.0
 jupyter>=1.0
 # 深度学习后续再用，第一次跑不成功可以先注释掉
 # tsai>=0.3.9
+
+# video_pose_expert：视频骨骼提取（Google MediaPipe Pose）。
+# 仅在处理真实视频时需要；合成数据 demo / SpaceJam .npy 训练不需要。
+# mediapipe>=0.10
+# opencv-python>=4.8
